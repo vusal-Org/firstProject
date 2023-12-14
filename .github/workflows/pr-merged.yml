@@ -1,0 +1,8 @@
+name: Pipeline
+on:
+  push:
+    branches:
+      - main
+jobs:
+  pr-merged:
+    uses: vusal-Org/cronjobProject/.github/workflows/pr-merged.yml@main
