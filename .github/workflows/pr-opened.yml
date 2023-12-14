@@ -6,3 +6,4 @@ on:
 jobs:
   pr-opened:
     uses: vusal-Org/cronjobProject/.github/workflows/pr-opened.yml@main
+    secrets: inherit
